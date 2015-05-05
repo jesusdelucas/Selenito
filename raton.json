@@ -5,112 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://www.critizen.com/"
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "header.main-header"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.carousel-bottom"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.btn-vc"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.carousel-bottom"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.btn-vc"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.carousel-bottom"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "header.main-header"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//article[@class='m-home']/div[2]"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='grid-layout']/div[3]/article[1]/div/div/a/img"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='grid-layout']/div[3]/article[2]/div/div"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "link text",
-        "value": "Estoy harto que se hagan campañas a favor de las motos, que si son debiles, etc cuando son los motociclistas/moteros la gran ma..."
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "span.feeling.happy"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='grid-layout']/div[3]/article[1]/div/div/div/p"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='grid-layout']/div[3]/article[1]/div/div/div/a/p"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='grid-layout']/div[3]/article[1]/div/div/div/a/p"
-      }
+      "url": "https://www.critizen.com/motocicletas_i22311/estoy-harto-hagan-campanas-favor-motos-debiles_c22031"
     },
     {
       "type": "mouseOverElement",
@@ -122,85 +17,29 @@
     {
       "type": "mouseOverElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='js-activity-block']/div"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#comment-box-layer > #nocomment > img[alt=\"no comments\"]"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#nocomment"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "p.critic-body-text.extended"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "article.post-box.col-md-6 "
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.facebook-float"
+        "type": "id",
+        "value": "viewmore"
       }
     },
     {
       "type": "mouseOverElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='facebook-float']/a/i"
+        "value": "//section[@id='comment-box-layer']/article/div[4]"
       }
     },
     {
-      "type": "clickElement",
+      "type": "mouseOverElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='facebook-float']/a/i"
+        "value": "//section[@id='comment-box-layer']/article/div[4]/div[1]/div"
       }
     },
     {
       "type": "mouseOverElement",
       "locator": {
-        "type": "link text",
-        "value": "+KCopas"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "p.critic-body-text.extended"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.critic-text.link-dark "
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img.extended"
+        "type": "xpath",
+        "value": "//section[@id='comment-box-layer']/article/div[4]"
       }
     },
     {
@@ -208,6 +47,41 @@
       "locator": {
         "type": "xpath",
         "value": "//main[@class='main-wrapper']/section"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body.search.loaded"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Quéjate fuerte\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Ver críticas"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Basta ya. Estoy harto. Tantos años gobernándonos un partido corrupto y mafioso... Y la gente cree que no es necesario un cambio..."
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='facebook-float']/a/i"
       }
     }
   ],
